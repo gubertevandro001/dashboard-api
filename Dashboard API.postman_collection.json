@@ -1,0 +1,301 @@
+{
+	"info": {
+		"_postman_id": "4b9f1401-8dc3-4bf7-829b-0dc4e599a255",
+		"name": "Dashboard API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18350480",
+		"_collection_link": "https://gubertservicosemtiltda.postman.co/workspace/GUBERT-TI-LTDA~f8d62ec3-6ac3-4469-84eb-c172387f39e7/collection/18350480-4b9f1401-8dc3-4bf7-829b-0dc4e599a255?action=share&source=collection_link&creator=18350480"
+	},
+	"item": [
+		{
+			"name": "FindAllTicketsPerClient",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tickets/client/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets",
+						"client",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "FindAllTicketsPerClient",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/tickets/client/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tickets",
+								"client",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 24 Oct 2023 01:39:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"module_id\": 1,\n        \"opening_date\": \"2023-01-01\",\n        \"closing_date\": \"2023-01-31\"\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Sapien in monti palavris \",\n        \"module_id\": 1,\n        \"opening_date\": \"2023-01-01\",\n        \"closing_date\": \"2023-01-02\"\n    },\n    {\n        \"id\": 7,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 8,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 9,\n        \"title\": \"Sapien in monti palavris \",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 10,\n        \"title\": \"Aenean aliquam molestie \",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 11,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 12,\n        \"title\": \"In elementis mé pra quem \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 13,\n        \"title\": \"Em pé sem cair deitado \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 14,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 15,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 16,\n        \"title\": \"Sapien in monti palavris \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 17,\n        \"title\": \"Aenean aliquam molestie \",\n        \"module_id\": 3,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 18,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"module_id\": 3,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 19,\n        \"title\": \"In elementis mé pra quem \",\n        \"module_id\": 3,\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 20,\n        \"title\": \"Em pé sem cair deitado \",\n        \"module_id\": 3,\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-11\"\n    },\n    {\n        \"id\": 21,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"module_id\": 4,\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-11\"\n    },\n    {\n        \"id\": 22,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"module_id\": 4,\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-11\"\n    },\n    {\n        \"id\": 23,\n        \"title\": \"Sapien in monti palavris \",\n        \"module_id\": 4,\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-11\"\n    },\n    {\n        \"id\": 24,\n        \"title\": \"Aenean aliquam molestie \",\n        \"module_id\": 4,\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 25,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 26,\n        \"title\": \"In elementis mé pra quem \",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 27,\n        \"title\": \"Em pé sem cair deitado \",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 28,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 29,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"module_id\": 1,\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 30,\n        \"title\": \"Sapien in monti palavris \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 31,\n        \"title\": \"Aenean aliquam molestie \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 32,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 33,\n        \"title\": \"In elementis mé pra quem \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 34,\n        \"title\": \"Em pé sem cair deitado \",\n        \"module_id\": 2,\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 35,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"module_id\": 3,\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 36,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"module_id\": 3,\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 37,\n        \"title\": \"Sapien in monti palavris \",\n        \"module_id\": 3,\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 38,\n        \"title\": \"Aenean aliquam molestie \",\n        \"module_id\": 3,\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 39,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"module_id\": 4,\n        \"opening_date\": \"2021-03-30\",\n        \"closing_date\": \"2021-03-31\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "FindAllTicketsPerModule",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tickets/module/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets",
+						"module",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "FindAllTicketsPerModule",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/tickets/module/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tickets",
+								"module",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 24 Oct 2023 01:40:44 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2023-01-01\",\n        \"closing_date\": \"2023-01-31\"\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2023-01-01\",\n        \"closing_date\": \"2023-01-02\"\n    },\n    {\n        \"id\": 7,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 8,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 9,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 10,\n        \"title\": \"Aenean aliquam molestie \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 11,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-02\"\n    },\n    {\n        \"id\": 25,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 26,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 27,\n        \"title\": \"Em pé sem cair deitado \",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 28,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 29,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-24\"\n    },\n    {\n        \"id\": 43,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 44,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 45,\n        \"title\": \"Aenean aliquam molestie \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 46,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 47,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 61,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 62,\n        \"title\": \"Em pé sem cair deitado \",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 63,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-25\"\n    },\n    {\n        \"id\": 64,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-26\"\n    },\n    {\n        \"id\": 65,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-26\"\n    },\n    {\n        \"id\": 79,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 80,\n        \"title\": \"Aenean aliquam molestie \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 81,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 82,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 83,\n        \"title\": \"Em pé sem cair deitado \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-03\"\n    },\n    {\n        \"id\": 97,\n        \"title\": \"Em pé sem cair deitado \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 98,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 99,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 100,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 101,\n        \"title\": \"Aenean aliquam molestie \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 115,\n        \"title\": \"Aenean aliquam molestie \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-04\"\n    },\n    {\n        \"id\": 116,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-04\"\n    },\n    {\n        \"id\": 117,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-04\"\n    },\n    {\n        \"id\": 118,\n        \"title\": \"Em pé sem cair deitado \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-04\"\n    },\n    {\n        \"id\": 119,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-13\"\n    },\n    {\n        \"id\": 133,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 134,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 135,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 136,\n        \"title\": \"Aenean aliquam molestie \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 137,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-27\"\n    },\n    {\n        \"id\": 151,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-05\"\n    },\n    {\n        \"id\": 152,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-21\"\n    },\n    {\n        \"id\": 153,\n        \"title\": \"Em pé sem cair deitado \",\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-21\"\n    },\n    {\n        \"id\": 154,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-21\"\n    },\n    {\n        \"id\": 155,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-21\"\n    },\n    {\n        \"id\": 169,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-28\"\n    },\n    {\n        \"id\": 170,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-24\",\n        \"closing_date\": \"2021-03-28\"\n    },\n    {\n        \"id\": 171,\n        \"title\": \"Aenean aliquam molestie \",\n        \"opening_date\": \"2021-03-30\",\n        \"closing_date\": \"2021-04-03\"\n    },\n    {\n        \"id\": 172,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-05\"\n    },\n    {\n        \"id\": 173,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-05\"\n    },\n    {\n        \"id\": 187,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-15\"\n    },\n    {\n        \"id\": 188,\n        \"title\": \"Em pé sem cair deitado \",\n        \"opening_date\": \"2021-03-10\",\n        \"closing_date\": \"2021-03-15\"\n    },\n    {\n        \"id\": 189,\n        \"title\": \"Mussum Ipsum cacilds vidis litro\",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-28\"\n    },\n    {\n        \"id\": 190,\n        \"title\": \"Praesent malesuada urna nisi \",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-28\"\n    },\n    {\n        \"id\": 191,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-21\",\n        \"closing_date\": \"2021-03-28\"\n    },\n    {\n        \"id\": 205,\n        \"title\": \"Sapien in monti palavris \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-06\"\n    },\n    {\n        \"id\": 206,\n        \"title\": \"Aenean aliquam molestie \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-06\"\n    },\n    {\n        \"id\": 207,\n        \"title\": \"Interessantiss quisso pudia \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-06\"\n    },\n    {\n        \"id\": 208,\n        \"title\": \"In elementis mé pra quem \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-06\"\n    },\n    {\n        \"id\": 209,\n        \"title\": \"Em pé sem cair deitado \",\n        \"opening_date\": \"2021-03-01\",\n        \"closing_date\": \"2021-03-06\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "FindAllGroupedTicketsByMonthAndYear",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tickets/01/2023",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets",
+						"01",
+						"2023"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "FindAllGroupedTicketsByMonthAndYear",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/tickets/01/2023",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tickets",
+								"01",
+								"2023"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 24 Oct 2023 01:42:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"tickets\": [\n        {\n            \"id\": 1,\n            \"title\": \"Mussum Ipsum cacilds vidis litro\",\n            \"client_id\": 1,\n            \"module_id\": 1,\n            \"opening_date\": \"2023-01-01\",\n            \"closing_date\": \"2023-01-31\"\n        },\n        {\n            \"id\": 2,\n            \"title\": \"Mussum Ipsum cacilds vidis palavris\",\n            \"client_id\": 2,\n            \"module_id\": 2,\n            \"opening_date\": \"2023-01-03\",\n            \"closing_date\": \"2023-01-05\"\n        },\n        {\n            \"id\": 3,\n            \"title\": \"Sapien in monti palavris \",\n            \"client_id\": 1,\n            \"module_id\": 1,\n            \"opening_date\": \"2023-01-01\",\n            \"closing_date\": \"2023-01-02\"\n        },\n        {\n            \"id\": 4,\n            \"title\": \"Sapien in monti palavris \",\n            \"client_id\": 2,\n            \"module_id\": 2,\n            \"opening_date\": \"2023-01-01\",\n            \"closing_date\": \"2023-01-02\"\n        },\n        {\n            \"id\": 5,\n            \"title\": \"Sapien in monti palavris \",\n            \"client_id\": 4,\n            \"module_id\": 4,\n            \"opening_date\": \"2023-01-01\",\n            \"closing_date\": \"2023-01-02\"\n        },\n        {\n            \"id\": 6,\n            \"title\": \"Sapien in monti palavris \",\n            \"client_id\": 4,\n            \"module_id\": 4,\n            \"opening_date\": \"2023-01-01\",\n            \"closing_date\": \"2023-01-02\"\n        }\n    ],\n    \"clients\": [\n        {\n            \"id\": 1,\n            \"name\": \"Apple Inc.\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Google\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Tesla\"\n        }\n    ],\n    \"modules\": [\n        {\n            \"id\": 1,\n            \"name\": \"Financeiro\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Vendas\"\n        },\n        {\n            \"id\": 4,\n            \"name\": \"Foguetes\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "CreateTicket",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Ticket Example\",\r\n    \"client_id\": 1,\r\n    \"module_id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tickets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CreateTicket",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Ticket Example\",\r\n    \"client_id\": 1,\r\n    \"module_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/tickets",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"tickets"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 24 Oct 2023 01:44:28 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 219,\n    \"title\": \"Ticket Example\",\n    \"client_id\": 1,\n    \"module_id\": 1,\n    \"opening_date\": \"2023-10-23\"\n}"
+				}
+			]
+		}
+	]
+}
